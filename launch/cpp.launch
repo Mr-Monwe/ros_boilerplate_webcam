@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch> 
+<!-- C++ node -->
+<node pkg="ros_boilerplate_webcam" name="camera_publisher" type="camera_publisher"/> 
+<node pkg="ros_boilerplate_webcam" name="camera_subscriber" type="camera_subscriber"/> 
+</launch>

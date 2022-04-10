@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch> 
+<!-- Python node -->
+<node pkg="ros_boilerplate_webcam" name="camera_publisher" type="camera_publisher.py"/>
+<node pkg="ros_boilerplate_webcam" name="camera_subscriber" type="camera_subscriber.py"/>
+</launch>
